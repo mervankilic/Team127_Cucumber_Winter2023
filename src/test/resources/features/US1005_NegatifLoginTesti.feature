@@ -12,6 +12,7 @@ Feature: US1005 Kullanici yanlis bilgilerle giris yapamaz
     And 3 saniye bekler
     And sayfayi kapatir
 
+
   Scenario: TC10 Kullanici gecersizEmail ve gecerliPassword ile giris yapamamali
 
     Given kullanici testotomasyonu anasayfaya gider
@@ -22,6 +23,7 @@ Feature: US1005 Kullanici yanlis bilgilerle giris yapamaz
     And sisteme giris yapamadigini test eder
     And 3 saniye bekler
     And sayfayi kapatir
+
 
   Scenario: TC11 Kullanici gecersizEmail ve gecersizPassword ile giris yapamamali
 

@@ -1,9 +1,10 @@
 Feature: US1006 Faker Class'i ile Facebook kayit testi
 
-
+  @P2
   Scenario: TC12 Feyk bilgilerle facebook'a kayit yapilabilmeli
 
     Given kullanici "faceUrl" anasayfaya gider
+    Then facebook cookies kabul eder
     And facebook'da yeni hesap olustur butonuna basar
     And 1 saniye bekler
     When Faker class'indan bilgilerle facebook kayit formunu doldurur

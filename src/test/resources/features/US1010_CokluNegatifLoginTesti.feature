@@ -1,6 +1,6 @@
-Feature: US1010 Kullanici verilen yanlis bilgilerle giris yapınız
+Feature: US1010 Kullanici verilen yanlis bilgilerle giris yapamaz
 
-  Scenario Outline: TC16 liste olarak verilen yanlis kullanici bilgileri ile giris yapilmali
+  Scenario Outline: TC16 liste olarak verilen yanlis kullanici bilgileri ile giris yapilamamali
 
     Given kullanici "toUrl" anasayfaya gider
     Then account butonuna basar
@@ -12,9 +12,9 @@ Feature: US1010 Kullanici verilen yanlis bilgilerle giris yapınız
     Then sayfayi kapatir
 
     Examples:
-    |verilenEmail|verilenPassword|
-    |toGecerliEmail|toGecersizPassword|
-    |toGecersizEmail |toGecerliPassword  |
-    |toGecersizEmail |toGecersizPassword |
-    |toGecersizEmail2|toGecersizPassword2|
-    |toGecersizEmail3|toGecersizPassword3|
+      |verilenEmail    |verilenPassword    |
+      |toGecerliEmail  |toGecersizPassword |
+      |toGecersizEmail |toGecerliPassword  |
+      |toGecersizEmail |toGecersizPassword |
+      |toGecersizEmail2|toGecersizPassword2|
+      |toGecersizEmail3|toGecersizPassword3|

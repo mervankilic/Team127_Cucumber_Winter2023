@@ -1,7 +1,6 @@
 Feature: US1008 Kullanici sayfadaki butonlari test eder
-
-  Scenario: TC14 Kullanici add ve delete butonlarin calistigini tes eder
-
+  @P1
+  Scenario: TC14 Kullanici add ve delete butonlarinin calistigini test eder
 
     Given kullanici "heroUrl" anasayfaya gider
     When kullanici Add Element butonuna basar

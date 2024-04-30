@@ -9,7 +9,6 @@ import org.openqa.selenium.interactions.Actions;
 import pages.FacebookPage;
 import utilities.Driver;
 
-
 public class FacebookStepdefinitions {
 
     FacebookPage facebookPage = new FacebookPage();

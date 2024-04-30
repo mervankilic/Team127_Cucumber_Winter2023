@@ -1,12 +1,12 @@
 Feature: US1011 scenario'da verilen yanlis bilgilerle negatif login testi
 
-
+  @P2
   Scenario Outline: TC17 liste olarak verilen yanlis kullanici bilgileri ile giris yapilamamali
 
     Given kullanici "toUrl" anasayfaya gider
     Then account butonuna basar
     When email olarak listede verilen "<verilenEmail>" girer
-    And  password olarak listede verilen "<verilenPassword>" girer
+    And password olarak listede verilen "<verilenPassword>" girer
     Then signIn butonuna basar
     And sisteme giris yapamadigini test eder
     And 1 saniye bekler

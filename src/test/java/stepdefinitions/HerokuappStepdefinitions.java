@@ -26,5 +26,4 @@ public class HerokuappStepdefinitions {
 
         Assert.assertTrue(herokuPage.addRemoveYaziElementi.isDisplayed());
     }
-
 }
